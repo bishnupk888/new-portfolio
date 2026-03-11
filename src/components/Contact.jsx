@@ -9,7 +9,7 @@ function Contact() {
       </p>
 
       <a
-        href="mailto:your@email.com"
+        href="mailto:bishnupk888@gmail.com"
         className="bg-blue-500 px-6 py-3 rounded-lg hover:bg-blue-600"
       >
         Email Me

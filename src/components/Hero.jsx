@@ -2,6 +2,12 @@ function Hero() {
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center px-6">
 
+      <img
+        src="https://github.com/bishnupk888.png"
+        alt="Bishnu PK"
+        className="w-40 h-40 rounded-full mb-6 border-4 border-blue-500 object-cover shadow-lg"
+      />
+
       <h1 className="text-4xl md:text-6xl font-bold">
         Hi, I'm <span className="text-blue-500">Bishnu PK</span>
       </h1>
