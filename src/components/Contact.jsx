@@ -9,7 +9,7 @@ function Contact() {
 
       <a
         href="mailto:bishnupk888@gmail.com"
-        className="glass-btn"
+        className="inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors duration-200"
       >
         Email Me
       </a>

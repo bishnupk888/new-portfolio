@@ -8,7 +8,7 @@ const Loader = ({ isVisible }) => {
           key="loader"
           initial={{ opacity: 1 }}
           exit={{ opacity: 0, transition: { duration: 0.8, ease: 'easeInOut' } }}
-          className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#020818]"
+          className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#020818]"
         >
           {/* Pulsing glowing ring */}
           <div className="relative flex items-center justify-center">

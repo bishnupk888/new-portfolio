@@ -69,12 +69,12 @@ function Hero() {
       </motion.h1>
 
       <p className="mt-4 text-gray-400 max-w-xl">
-        I build modern web applications using MERN Stack.
+        I build modern web applications using the MERN Stack.
       </p>
 
       <a
         href="#projects"
-        className="mt-6 glass-btn"
+        className="mt-6 inline-block px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg transition-colors duration-200"
       >
         View Projects
       </a>

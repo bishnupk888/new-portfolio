@@ -35,8 +35,9 @@ function App() {
 
       <AntiGravityBackground />
 
+      <Navbar />
+
       <div className="relative z-10">
-        <Navbar />
         <Hero />
         <About />
         <Skills />
