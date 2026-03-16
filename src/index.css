@@ -10,7 +10,7 @@ html {
 @layer components {
   /* Semi-transparent frosted glass card */
   .glass-card {
-    @apply relative bg-white/5 backdrop-blur-md border border-white/10 rounded-xl
+    @apply relative bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-xl
            transition-all duration-300 ease-in-out;
   }
   .glass-card:hover {
@@ -30,7 +30,7 @@ html {
 
   /* Skill / tag badge — always-on subtle glass, no hover animation */
   .glass-tag {
-    @apply bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-5 py-2
+    @apply bg-white/[0.05] backdrop-blur-md border border-white/10 rounded-lg px-5 py-2
            text-gray-200;
   }
 }
