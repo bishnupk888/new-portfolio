@@ -67,8 +67,8 @@ const projects = [
     live: "#",
   },
   {
-    title: "Project Three",
-    desc: "A real-time chat application using Socket.IO.",
+    title: "Weather App",
+    desc: "A sleek and responsive Weather Application built with React.js that provides real-time weather updates, forecasts, and location-based data. It features a modern UI with dynamic backgrounds and smooth transitions, fetching data from weather APIs to deliver accurate atmospheric information.",
     images: [project3Img, project3bImg, project3cImg],
     github: "#",
     live: "#",
