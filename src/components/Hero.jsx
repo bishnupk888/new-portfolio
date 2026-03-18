@@ -158,8 +158,12 @@ function Hero() {
           View Projects
         </a>
         <a
-          href="https://drive.google.com/file/d/1B6KAOpH2RJIw_XrulwxiNM-JgUQrQ6F7/view?usp=sharing"
-          target="_blank"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            setShowNotification(true);
+            setTimeout(() => setShowNotification(false), 3000);
+          }}
           className="glass-btn px-8 py-4 text-lg font-bold"
         >
           View Resume
