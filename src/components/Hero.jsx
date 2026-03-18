@@ -63,7 +63,7 @@ function Hero() {
   }, [mouseX, mouseY]);
 
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-32 md:pt-0 relative overflow-hidden">
       <AnimatePresence>
         {showNotification && (
           <Notification 
