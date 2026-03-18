@@ -136,7 +136,7 @@ function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                placeholder="John Doe"
+                placeholder="enter your name "
                 className="w-full bg-white/[0.01] border border-white/10 rounded-2xl px-5 py-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-500/50 transition-all duration-300"
               />
             </div>
@@ -150,7 +150,7 @@ function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                placeholder="john@example.com"
+                placeholder="enter your email"
                 className="w-full bg-white/[0.01] border border-white/10 rounded-2xl px-5 py-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-500/50 transition-all duration-300"
               />
             </div>
@@ -164,7 +164,7 @@ function Contact() {
                 onChange={handleChange}
                 required
                 rows="4"
-                placeholder="Tell me about your project..."
+                placeholder="enter message"
                 className="w-full bg-white/[0.01] border border-white/10 rounded-2xl px-5 py-4 text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/30 focus:border-blue-500/50 transition-all duration-300 resize-none"
               ></textarea>
             </div>
