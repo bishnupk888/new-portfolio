@@ -63,7 +63,7 @@ function Hero() {
   }, [mouseX, mouseY]);
 
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-32 md:pt-0 relative overflow-hidden">
+    <section className="h-[100dvh] flex flex-col justify-center items-center text-center px-6 pt-20 md:pt-0 relative overflow-hidden">
       <AnimatePresence>
         {showNotification && (
           <Notification 
@@ -93,7 +93,7 @@ function Hero() {
           <img
             src="https://github.com/bishnupk888.png"
             alt="Bishnu PK"
-            className="relative w-40 h-40 rounded-full border-4 border-white/10 object-cover shadow-2xl"
+            className="relative w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white/10 object-cover shadow-2xl"
           />
         </div>
       </motion.div>
@@ -104,13 +104,13 @@ function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2 }}
       >
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
+        <h1 className="text-4xl md:text-7xl font-bold tracking-tight">
           Hi, I'm{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
             Bishnu PK
           </span>
         </h1>
-        <p className="mt-6 text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-4 md:mt-6 text-gray-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
           Full Stack Developer specializing in the MERN Stack. 
           Crafting modern, scalable, and user-centric web applications.
         </p>
@@ -118,7 +118,7 @@ function Hero() {
 
       {/* Social Links */}
       <motion.div 
-        className="flex gap-4 mt-8"
+        className="flex gap-3 md:gap-4 mt-6 md:mt-8"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.4 }}
@@ -146,7 +146,7 @@ function Hero() {
 
       {/* CTA Buttons */}
       <motion.div 
-        className="mt-10 flex flex-wrap justify-center gap-4"
+        className="mt-8 md:mt-10 flex flex-wrap justify-center gap-4"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
