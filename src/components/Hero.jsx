@@ -158,7 +158,7 @@ function Hero() {
           View Projects
         </a>
         <a
-          href="https://drive.google.com/file/d/1kixWQxo4mw2Si4cpT08TiVAugh9atpoZ/view?usp=sharing"
+          href="https://drive.google.com/file/d/1B6KAOpH2RJIw_XrulwxiNM-JgUQrQ6F7/view?usp=sharing"
           target="_blank"
           className="glass-btn px-8 py-4 text-lg font-bold"
         >
